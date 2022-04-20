@@ -1,0 +1,16 @@
+{
+  "name": "roll-hp",
+  "title": "Roll HP",
+  "description": "Roll NPC HP when it's placed on the scene.",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Phenomen"
+    }
+  ],
+  "esmodules": ["script.js"],
+  "minimumCoreVersion": 9,
+  "compatibleCoreVersion": 9,
+  "manifest": "https://raw.githubusercontent.com/phenomen/foundry-roll-hp/main/module.json",
+  "download": "https://github.com/phenomen/foundry-roll-hp/archive/refs/heads/main.zip"
+}
