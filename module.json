@@ -1,13 +1,10 @@
 {
   "name": "roll-hp",
-  "title": "Roll HP",
-  "description": "Roll NPC HP when it's placed on the scene.",
-  "version": "0.1",
-  "authors": [
-    {
-      "name": "Phenomen"
-    }
-  ],
+  "title": "Roll NPC HP",
+  "description": "Roll 5e NPC HP when it's placed on the scene.",
+  "version": "0.2",
+  "author": "Phenomen",
+  "system": ["dnd5e"],
   "esmodules": ["script.js"],
   "minimumCoreVersion": 9,
   "compatibleCoreVersion": 9,
