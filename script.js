@@ -6,6 +6,8 @@ function onPreCreateToken(tokenDocument, data, options, userId) {
     if (!formula) return;
     const hp = new Roll(formula).roll({ async: false }).total;
 
+    hp < 1 ? (hp = 1) : null;
+
     tokenDocument.data.update({
       actorData: {
         data: {
