@@ -4,7 +4,7 @@ function onPreCreateToken(tokenDocument, data, options, userId) {
   if (actor) {
     const formula = actor.data.data.attributes.hp.formula;
     if (!formula) return;
-    const hp = new Roll(formula).roll({ async: false }).total;
+    let hp = new Roll(formula).roll({ async: false }).total;
 
     hp < 1 ? (hp = 1) : null;
 
